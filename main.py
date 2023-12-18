@@ -144,3 +144,6 @@ def add_face():
 @app.route('/', methods=['GET'])
 def home():
     return 'WELCOME FACE RECOG APP API'
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=3000)
